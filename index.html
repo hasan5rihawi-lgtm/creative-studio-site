@@ -39,8 +39,8 @@
 <!-- 2. HERO -->
 <section class="hero">
   <div class="hero__top">
-    <p class="eyebrow rv">Film &nbsp;/&nbsp; Identity &nbsp;/&nbsp; Digital</p>
     <h1 class="hero__title rv">Film, identity and interface,<br><em>made with one point of view.</em></h1>
+    <p class="hero__lede rv">An independent studio for industrial and architectural film, brand identity and digital work.</p>
   </div>
 
   <figure class="frame hero__frame rv" aria-label="Showreel still">
@@ -61,15 +61,11 @@
       <rect width="2100" height="900" filter="url(#grain)" opacity=".5"/>
     </svg>
     <figcaption class="hero__cap">
-      <span>Showreel 2026</span>
+      <span>Showreel 2026<span class="cap-extra"> &nbsp;·&nbsp; Industrial, Architecture, Brand</span></span>
       <button class="play" type="button" aria-label="Play showreel"><i></i>Play &nbsp;02:14</button>
     </figcaption>
   </figure>
 
-  <div class="hero__foot">
-    <p class="hero__lede rv">A multidisciplinary studio making industrial and architectural films, brand identities and digital work for companies that care how they are seen.</p>
-    <a class="scroll rv" href="#work">Selected work <i aria-hidden="true">↓</i></a>
-  </div>
 </section>
 
 <!-- 3. SELECTED WORK -->
@@ -80,6 +76,8 @@
   </header>
 
   <div class="work__list">
+    <!-- Each .frame holds a placeholder SVG. Swap it for <img> or <video> (cover-fit) when real material is ready;
+         keep the .meta block (index, title, category, year) unchanged. -->
 
     <!-- 01 Industrial Film — full width -->
     <article class="project p1 rv" data-category="industrial">
@@ -286,7 +284,7 @@
 <section class="services" id="services">
   <header class="section-head rv">
     <h2 class="label">Capabilities</h2>
-    <p class="count">03 disciplines, one team</p>
+    <p class="count">03 disciplines, one point of view</p>
   </header>
 
   <ol class="services__list">
@@ -327,19 +325,18 @@
   </figure>
   <div class="about__copy">
     <h2 class="label rv">The Studio</h2>
-    <p class="about__lead rv">Film, brand and digital usually live in three different places. Here they share one table, so the work looks and feels like it came from one mind.</p>
-    <p class="about__body rv">A small, senior team working with manufacturers, architects and brands from first idea to final delivery.</p>
+    <p class="about__lead rv">Film, brand and digital are usually handled apart. Here they start from one idea and one creative direction, so the work reads as a whole.</p>
+    <p class="about__body rv">An independent practice working directly with manufacturers, architects and brands, from first idea to final delivery.</p>
     <a class="cta rv" href="#">About the studio <i aria-hidden="true">→</i></a>
   </div>
 </section>
 
 <!-- 6. CONTACT CTA -->
 <section class="contact" id="contact">
-  <p class="eyebrow rv">Now booking · Q1 2027</p>
-  <h2 class="contact__title rv">Have a project <em>in mind?</em></h2>
+  <h2 class="contact__title rv">Start with <em>a conversation.</em></h2>
   <div class="contact__actions rv">
     <a class="btn btn--solid" href="mailto:hello@korastudio.example">Start a project <i aria-hidden="true">→</i></a>
-    <a class="btn btn--line" href="#">Book a consultation</a>
+    <a class="btn btn--line" href="#">Book a consultation <i aria-hidden="true">→</i></a>
   </div>
 </section>
 
@@ -347,20 +344,10 @@
 
 <!-- 7. FOOTER -->
 <footer class="footer">
-  <div class="footer__col">
-    <a class="brand" href="#top">Kora<span>Studio</span></a>
-    <p>© 2026 · Placeholder name</p>
-  </div>
-  <div class="footer__col">
-    <a href="mailto:hello@korastudio.example">hello@korastudio.example</a>
-    <a href="tel:+000000000">+00 000 000 000</a>
-  </div>
-  <div class="footer__col">
-    <a href="#">Instagram</a>
-    <a href="#">Vimeo</a>
-    <a href="#">LinkedIn</a>
-  </div>
-  <a class="footer__top" href="#top">Back to top ↑</a>
+  <a class="brand" href="#top">Kora<span>Studio</span></a>
+  <a href="mailto:hello@korastudio.example">hello@korastudio.example</a>
+  <div class="footer__social"><a href="#">Instagram</a><a href="#">Vimeo</a><a href="#">LinkedIn</a></div>
+  <p>© 2026 · Placeholder name</p>
 </footer>
 
 <script src="script.js"></script>
